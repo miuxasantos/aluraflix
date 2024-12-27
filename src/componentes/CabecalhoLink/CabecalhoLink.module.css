@@ -1,0 +1,15 @@
+.link {
+    color: var(--branco);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.linkAtivo {
+    color: var(--azul);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 1em;
+    text-decoration: none;
+}

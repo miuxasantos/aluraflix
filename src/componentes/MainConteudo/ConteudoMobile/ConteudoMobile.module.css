@@ -1,0 +1,57 @@
+.mobile__titulo {
+    color: var(--branco);
+    font-size: 30px;
+    font-weight: 800;
+    height: 40px;
+    width: 200px;
+    padding: 20px;
+    background-color: var(--amarelo);
+    text-align: center;
+    border-radius: 30px;
+}
+
+.mobile__videos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mobile__imagem {
+    width: 400px;
+    height: 220px;
+    cursor: pointer;
+}
+
+.mobile__video__card {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.mobile__editar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--preto);
+    border-radius: 0px 0px 20px 20px;
+}
+
+.mobile__botao {
+    width: 50px;
+    background-color: var(--preto);
+    all: unset;
+    cursor: pointer;
+}
+
+.mobile__editar__icon {
+    width: 25.47px;
+    height: 28px;
+}
+
+.mobile__p {
+    color: var(--branco);
+}

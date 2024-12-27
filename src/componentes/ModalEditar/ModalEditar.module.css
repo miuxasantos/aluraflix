@@ -1,0 +1,117 @@
+.modal__dialog {
+    box-sizing: border-box;
+    width: 800px;
+    height: 1000px;
+    top: 714px;
+    left: 40px;
+    padding: 20px 40px;
+    border-radius: 15px;
+    border: 5px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--azul-escuro);
+    border-color: var(--azul-claro);
+}
+
+.modal__titulo {
+    color: var(--branco);
+    font-size: 36px;
+}
+
+.modal__form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+    align-items: top;
+}
+
+.modal__container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.modal__label {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: left;
+    color: var(--branco);
+}
+
+.modal__input {
+    width: 470px;
+    height: 62px;
+    border-radius: 10px;
+    border: 2px;
+    border-color: var(--azul);
+    border-style: solid;
+    background-color: var(--azul-escuro);
+}
+
+.modal__select {
+    width: 573px;
+    height: 62px;
+    border-radius: 10px;
+    border: 2px;
+    border-color: var(--azul);
+    border-style: solid;
+    background-color: var(--azul-escuro);
+    color: var(--branco)
+}
+
+.modal__option {
+    border-radius: 10px;
+    border: 2px;
+    border-color: var(--azul);
+    border-style: solid;
+    background-color: var(--azul-escuro);
+}
+
+.modal__textarea {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px;
+    resize: none;
+    border-color: var(--azul);
+    border-style: solid;
+    background-color: var(--azul-escuro);
+}
+
+.modal__container__btn {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.modal__enviar {
+    width: 182px;
+    height: 54px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: transparent;
+    border-color: var(--azul);
+    color: var(--branco);
+    border-style: solid;
+}
+
+.modal__fechar {
+    width: 182px;
+    height: 54px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: transparent;
+    border-color: var(--preto);
+    color: var(--branco);
+    border-style: solid;
+    border-color: var(--branco);
+}

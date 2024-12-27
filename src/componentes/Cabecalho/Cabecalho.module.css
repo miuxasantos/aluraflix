@@ -1,0 +1,16 @@
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1rem;
+    background-color: var(--cinza);
+    border-bottom: 4px;
+    border-color: var(--azul);
+    box-shadow: 0px 5px 29px 0px var(--azul);
+}
+
+.logo {
+    width: 168.45px;
+    height: 40px;
+}
